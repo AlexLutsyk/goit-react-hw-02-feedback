@@ -1,0 +1,23 @@
+.optionBtn {
+  font-family: 'Architects Daughter', cursive;
+  color: #bbc5ce;
+  background-color: #0074b4;
+  font-weight: 700;
+  padding: 5px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.optionBtn:not(:last-child) {
+  margin-right: 10px;
+}
+
+.optionBtnList {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
